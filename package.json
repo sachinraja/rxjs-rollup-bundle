@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "visualize": "VISUALIZE=true rollup -c"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.70.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-visualizer": "^5.6.0",
+    "rxjs": "^7.5.5"
+  }
+}
